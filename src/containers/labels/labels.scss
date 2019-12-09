@@ -1,0 +1,35 @@
+.app {
+  padding: 1rem;
+}
+
+.labels-page {
+}
+
+.flex {
+  display: flex;
+
+  .flex-card {
+    flex: 30%;
+  }
+}
+
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+
+input[type='text'] {
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  display: block;
+}
+
+.err-msg {
+  background-color: #f8d7da;
+  padding: 10px
+}
